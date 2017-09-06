@@ -26,6 +26,57 @@ footer {
 }
 
 
+
+.feat1{
+   display: block;
+   margin: auto;
+}
+
+.feat2{
+   display: block;
+   margin: auto;
+}
+
+.feat3{
+   display: block;
+   margin: auto;
+}
+
+#feat4{
+   display: block;
+   margin: auto;
+}
+
+#feat5{
+   display: block;
+   margin: auto;
+}
+
+#feat6{
+   display: block;
+   margin: auto;
+}
+
+
+#feat7{
+   display: block;
+   margin: auto;
+}
+
+
+
+.self{
+   margin-bottom: 50px;
+}
+
+#video1{
+   max-width: 100%;
+   height: auto;
+}
+
+
+
+  
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -45,7 +96,9 @@ footer {
     .tabbable{
       text-align: justify;
     }
-
+   #well1{
+      text-align: justify;
+   }
 
   #video1{
    margin-top: 0;
