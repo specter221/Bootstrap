@@ -1,492 +1,414 @@
 <!DOCTYPE html>
-
 <html>
-	<head>
-		
-		<!-- Website Title & Description for Search Engine purposes -->
-		<title> Benz</title>
-		<meta name="description" content="">
-		
-		<!-- Mobile viewport optimized -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		
-		<!-- Bootstrap CSS -->
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
-		
-		<!-- Custom CSS -->
-		<link href="includes/css/styles.css" rel="stylesheet">
-		
-		<!-- Include Modernizr in the head, before any other Javascript -->
-		<script src="includes/js/modernizr-2.6.2.min.js"></script>
-		
-	</head>
-	<body>
-	
-	      <div class="container" id="main" "><!-- main container for the site-->
-
-	           <div class="navbar navbar-fixed-top">
-                      <div class="container"><!-- navbar inside container as the contents dont take the full space-->
-
-                      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-		              <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-			          <span class="icon-bar"></span>
-			          <span class="icon-bar"></span>
-			          <span class="icon-bar"></span>
-		              </button>
-
-                          <a class="navbar-brand" href="#"><img src="images/benz.jpg" height="30" width="30" alt="Benz"></a><!-- alt tells description-->
-
-                          <div class="nav-collapse collapse navbar-responsive-collapse"><!-- this class used for dropdown menu-->
-                               <ul class="nav navbar-nav">
-                                    <li>
-                                      <a href="#">Benz</a>
-                                    </li>
-                                   <li class="active"><!-- Active shows highlighted on the home-->
-                                      <a href="#">Home</a>
-                                    </li>
-                                    
-                                    <li class="dropdown">
-                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" ><strong class="caret"></strong>Services</a>
-
-                                       <ul class="dropdown-menu">
-                                          <li>
-                                              <a href="#">Buy</a>
-                                          </li>
-
-                                          <li>
-                                              <a href="#">Book</a>
-                                          </li>
-
-                                           <li>
-                                              <a href="#">Servicing</a>
-                                          </li>
-                                          <!-- for dividing into two parts-->
-                                          <li class="divider"></li>
-                                          <!-- for adding the heading after the divider-->
-                                          <li class="dropdown-header"> Category </li>
-                                          <li>
-                                              <a href="#">SUV</a>
-                                          </li>
-                                          <li>
-                                              <a href="#">Sedan</a>
-                                          </li>
-                                          <li>
-                                              <a href="#">Hatchback</a>
-                                          </li>
-
-                                     </ul><!--end of dropdown menu-->     
-                                    </li>   
-                               	</ul><!-- end of nav-->
-
-                               	<form class="navbar-form pull-left"><!-- pull left is like float which pulls the form to left-->
-                               	  <input type="text" class="form-control" placeholder="Search this site....." id="searchInput">
-
-                               	 <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
-                               	 </button><!-- glyphicon is class of bootstrap for icons-->
-
-                               	  </form><!-- end of form-->
-
-                               	  <ul class="nav navbar-nav pull-right"><!-- pull right is like float which pulls to right-->
-                               	     <li class="dropdown">
-                               	         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong class="caret"></strong>
-                               	         <span class="glyphicon glyphicon-user"></span>My Account </a>
-                               	         <ul class="dropdown-menu">
-                                          <li>
-                                              <a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a>
-                                          </li>
-
-                                          <li>
-                                              <a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
-                                          </li>
-
-                                           <li>
-                                              <a href="#"><span class="glyphicon glyphicon-briefcase"></span>Billing</a>
-                                          </li>
-                                          <li class="divider"></li>
-                                          <li>
-                                              <a href="#"><span class="glyphicon glyphicon-off"></span>logout</a>
-                                          </li>
-                                          </ul><!-- end of dropdown -->
-                               	     </li>  
-                               	  </ul><!-- end of pullright -->  
-                           </div><!-- end of nav-collpase-->
-
-
-                      
-
-                      </div><!-- end of container-->
-
-               </div> <!-- end navbar -->
-
-	           
-
-	           <div class="carousel slide" id="myCarousel">
-<!-- Indicators -->
-	<ol class="carousel-indicators">
-		<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-		<li data-slide-to="1" data-target="#myCarousel"></li>
-		<li data-slide-to="2" data-target="#myCarousel"></li>
-	</ol>
-
-	<!-- Wrapper for slides -->
-	<div class="carousel-inner">
-		<div class="item active" id="slide1">
-			<div class="carousel-caption">
-				<h4 class=head4>Welcome to the Mercedes-Benz </h4>
-				<p class="para1">Exclusive reports and current films: experience a broad range of topics from the fascinating world of Mercedes-Benz. 
-		 		</p>
-			</div><!-- end carousel-caption-->
-		</div><!-- end item -->
-		
-		<div class="item" id="slide2">
-			<div class="carousel-caption">
-				<h4>Mercedes</h4>
-				<p class="para2">The Best or Nothing</p>
-			</div><!-- end carousel-caption-->
-		</div><!-- end item -->
-		
-		<div class="item" id="slide3">
-			<div class="carousel-caption" id="caro3">
-				<h4 >Benz</h4>
-				<p class="para3">Get your dream into reality</p>
-			</div><!-- end carousel-caption-->
-		</div><!-- end item -->
-	</div><!-- carousel-inner -->
-	
-	<!-- Controls -->
-	<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
-	<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
-
-	           </div><!-- end of carosuel-->
-
-	          
-
-
-
-
-
-	           <div class="row" id="bigCallout">
-                 <div class="col-12">
-
- 					 
-
-                    <!-- visible only to small device-->
-                     <div class="well well-small visible-sm">
-                     	<a href="#" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>
-                     	Give us a call</a>
-                     </div><!-- end well-->
-
-                      <div class="well">
-                          <div class="page-header">
-                             <h1> Mercedes Benz <small>India</small> </h1>
-                           </div><!-- end of page-header-->
-                           <p class="lead" id=well1">Mercedes-Benz is a global automobile manufacturer and a division of the German company Daimler AG. The brand is known for luxury vehicles, buses, coaches, and trucks. The headquarters is in Stuttgart, Baden-Württemberg. The name first appeared in 1926 under Daimler-Benz.
-
-                           Mercedes-Benz traces its origins to Daimler-Motoren-Gesellschaft's 1901 Mercedes and Karl Benz's 1886 Benz Patent-Motorwagen, which is widely regarded as the first gasoline-powered automobile. The slogan for the brand is "the best or nothing".
-                           </p>
-                           
-
-                           <a href="#" class="btn btn-link">Click for more</a>
-                          
-                       </div><!-- end of well-->
-                 </div><!-- end of col12-->
-
-	           </div><!-- end of bigcallout-->
-
-	          
-
-	           <div class="row" id="featuresheading">
-                  <div class="col-12">
-                     <h2> Specifications </h2>
-                     <p>The world of Benz comes with some cool specs </p>
-                  </div><!-- end of col12-->
-               
-
-
-
-
-
-	           </div><!-- end of featuresheading-->
-
-	           
-
-	           <div class="row" id="features">
-
-                  <div class="col-sm-4 features">
-                        <div class="panel">
- 								<div class="panel-heading">
- 									 <h3 class="panel-title"> Alloy Wheels & Reversing Camera</h3>
- 								</div><!-- end of panel heading-->
- 								<img src="images/feat11.jpg" class="feat1"  alt="Alloy">
- 								<p>45.7 cm, 5 spoke light alloy wheels (Sport)
-                                45.7 cm, 5 twin-spoke light alloy wheels (Style).Reversing and manoeuvring are not the most pleasant situations for a driver. But what used to be rather tricky operations can now be performed with ease. The reversing camera is switched on automatically when the driver selects reverse gear.
-								</p>
-
-                        </div><!-- end of panel-->
-                   </div><!-- end of col featuress-->
-
-                   <div class="col-sm-4 features">
-                        <div class="panel">
-								<div class="panel-heading">
- 									 <h3 class="panel-title"> Diesel Engine</h3>
- 								</div><!-- end of panel heading-->
- 								<img src="images/feat21.jpg" class="feat2" alt="Alloy">
- 								<p>The GLA 200 d has an output of 100 kW (136 hp) and gives a class leading fuel efficiency of 17.9 km/l. With up to 300 Nm of torque, it offers an effortlessly superior driving experience. Overtaking maneuvers are performed with astounding ease born of refined power.The latest generation of common rail direct injection enables efficient combustion. 
-								</p>
-                        </div><!-- end of panel-->
-                   </div><!-- end of col featuress-->
-
-                   <div class="col-sm-4 features">
-                        <div class="panel">
-								<div class="panel-heading">
- 									 <h3 class="panel-title"> Ground Clearance</h3>
- 								</div><!-- end of panel heading-->
- 								<img src="images/feat31.jpg" class="feat3" alt="Alloy">
- 								<p>Equipped with an India specific suspension, the chassis is raised by 30 mm.
-                                This results in improved off-road capabilities thanks to a greater ground
-                                clearance of 183 mm with a higher seat position and also a striking off-road
-                                look. This suspension variant also features its own steering tuning
-                                which enables The GLA to master the most challenging roads. 
-								</p>
-
-                        </div><!-- end of panel-->
-                   </div><!-- end of col featuress-->
-
-
-
-
-
-                <div class="row" id="featuresheading">
-                  <div class="col-12">
-                     <h2> Service Centers </h2>
-                     <p> The service centers in India are as follows</p>
-                  </div><!-- end of col12-->
-               
-                    <div class="col-sm-3 features">
-                        <div class="panel">
- 								<div class="panel-heading">
- 									 <h3 class="panel-title">New Delhi</h3>
- 								</div><!-- end of panel heading-->
- 								<img src="images/feat41.jpg" class="img-circle" id="feat4" alt="Alloy">
- 								<p>We have our service centers across whole country prime location in north being Delhi.
-								</p>
-
-                        </div><!-- end of panel-->
-                   </div><!-- end of col featuress-->
-
-                   <div class="col-sm-3 features">
-                        <div class="panel">
- 								<div class="panel-heading">
- 									 <h3 class="panel-title">Mumbai</h3>
- 								</div><!-- end of panel heading-->
- 								<img src="images/feat51.jpg" class="img-circle" id="feat5" alt="Alloy">
- 								<p>We have our service centers across whole country prime location in west being Mumbai.
-								</p>
-
-                        </div><!-- end of panel-->
-                   </div><!-- end of col featuress-->
-
-                   <div class="col-sm-3 features">
-                        <div class="panel">
- 								<div class="panel-heading">
- 									 <h3 class="panel-title">Bangalore</h3>
- 								</div><!-- end of panel heading-->
- 								<img src="images/feat61.jpg" class="img-circle" id="feat6" alt="Alloy">
- 								<p>We have our service centers across whole country prime location in south being Bangalore.
-								</p>
-
-                        </div><!-- end of panel-->
-                   </div><!-- end of col featuress-->
-
-                   <div class="col-sm-3 features">
-                        <div class="panel">
- 								<div class="panel-heading">
- 									 <h3 class="panel-title"> Chennai</h3>
- 								</div><!-- end of panel heading-->
- 								<img src="images/feat71.jpg" class="img-circle" id="feat7" alt="Alloy">
- 								<p>We have our service centers across whole country prime location in south being Chennai.
-								</p>
-
-                        </div><!-- end of panel-->
-                   </div><!-- end of col featuress-->
-
-                  </div><!-- end of features-->
-
-	           
-
-	           <div class="row" id="moreInfo">
-                <div class="col-sm-6">
-                	<h3> Future Cars </h3>
-                	   <div class="tabbable">
-                         <ul class="nav nav-tabs">
-                         	  <li class="active"><a href="#tab1" data-toggle="tab">Section 1 </a></li>
-                         	  <li><a href="#tab2" data-toggle="tab">Section2 </a></li>
-                         	  <li><a href="#tab3" data-toggle="tab">Section3 </a></li>
-
-                         </ul>
-                         <div class="tab-content">
-                             <div class="tab-pane active" id="tab1">
-                             <h4>Mercedes-Benz Concept A Sedan</h4>
-                              <p>
-                              With the Concept A Sedan, Mercedes-Benz unveils an inspired new take on the compact vehicle. Building on the success of the CLA and GLA lineups, the Concept A Sedan epitomizes the "sensual purity" design philosophy with a stunning, streamlined look.
-                              </p>
-
-                              <p>
-                              At first glance, the shark-like nose and triangular headlamps give a forward thrust to the Concept A profile. The headlamps themselves feature an all-new grid structure coated in UV paint and exposed to ultraviolet light, giving them a unique glow that changes depending on the outside environment. Drawing even more attention to the impressive front end is the Panamericana grille, the stretched hood with parallel Powerdomes, and the full-width lower air intake, outlined in dark chrome for a decidedly menacing presence.
-                              </p>
-
-                              <p>
-                              From there, the Concept A extends elegantly toward the rear. The door handles are flush with the body, adding to the continuous shape, the panoramic glass roof gives it a glistening sheen, and the exclusive 20-inch wheels radiate technical precision. The rear itself emphasizes the vehicle´s width - nearly 74 inches - with stylish black and chrome trim.
-                              </p>
-                             <img src="images/tab11.jpg">
-
-                             </div><!-- end of tab pane-->
-
-                             <div class="tab-pane" id="tab2">
-                             		<h4>Mercedes‑AMG GT C</h4>
-                             		<p>
-                             		This year marks the 50th anniversary of AMG's legendary motorsports heritage. And the most fitting way to celebrate that glorious past is to unveil the future. The 2018 GT C Coupe is the latest evolution of a vehicle family that marries track-worthy power to luxury worthy of Mercedes-AMG.
-                             		</p>
-
-                             		<p>
-                                    The GT C takes the already impressive capability of its fellow GT coupes and pushes it to a formidable new level: 550 hp and 502 lb-ft of torque*. What's more, the new coupe borrows the GT R's rear-axle steering to provide maximum stability and agility. An electronically controlled rear-axle limited-slip differential further improves traction to dominate every corner.
-                                    </p>
-
-                                    <p>
-                                    The GT C boasts the same aggressive rear dimensions as the GT R, allowing for larger wheels and a wider track. It also features a Panamericana grille in front, a tribute to classic racing heritage and the new face of all AMG GT models going forward.
-                                    </p>
-                                    <img src="images/tab21.jpg">
-                            </div><!-- end of tab pane-->
- 
-                             <div class="tab-pane" id="tab3">
-                                      <h4> Mercedes‑Benz E‑Class Cabriolet</h4>
-                                      <p>
-                                      The newest addition to the E-Class family is an ode to the pleasures of open-air driving. With unprecedented comfort and luxury, a powerful yet effortless driving experience, and high-caliber technology that only an E-Class can provide, the 2018 E-Class Cabriolet is a genuine rarity.
-                                      </p>
-
-                                      <p>
-                                      The premium fabric soft-top has a multi-layer structure with sophisticated insulation to reduce wind and noise. It can be fully opened and closed in just 20 seconds at speeds of up to 30 mph, folding quietly and precisely into the trunk. And with available AIRCAP® and AIRSCARF® neck-level heating, comfortable top-down driving becomes an all-seasons affair.
-                                      </p>
-
-                                      <p>
-                                      Inside the cabin, E-Class technology is spread throughout. This includes standard features like comprehensive Smartphone Integration, a 12.3-inch COMAND® display, Car-to-X Communication and steering wheel Touch Control Buttons, plus innovative safety systems like PRE-SAFE® Sound. For even more, there´s the optional Driver Assistance Package which includes Active Steering Assist, Active Lane Change Assist, and more.
-                                      </p>
-                                      <img src="images/tab31.jpg">
-
-                             </div><!-- end of tab pane-->         
-
-                         </div><!-- enf of tab content-->
-                	   </div><!-- end of tabbable-->   
-                </div><!-- end of col6-->
-
-
-
-                <div class="col-sm-6">
-                <h3 class="self"> Self Drive Car </h3>
-
-                
-                <video  id="video1">
-                <source src="video/1.mp4"  type="video/mp4">
-                </video>
-                <button onclick="playPause()">Play/Pause</button>
-
-
-                <div class="feat8">
-                <img src="images/feat81.jpg ">
-
-                 </div>
-
-                
-                </div> <!-- end of clo6-->
-
-                
-               </div><!--end of moreInfo-->
-	           <br>
-
-
-
-	           
-
-
-
-	          
-	       </div><!-- end of container-->
-	       
-	       
-</div>
-
-	       <footer>
-	       <div class="container">
-	       <div class="row">
-	           <div class="col-sm-2">
-	           <h6> Copyright &copy; 2001 Benz </h6>
-
-	           </div><!-- end of col2-->
-
-	           <div class="col-sm-4">
-	           <h6> About Us </h6>
-	           <p><small>
-	           Here you’ll find all the news and events for Mercedes-Benz plus fascinating details on the brand’s innovative power and unmistakable design idiom. Whether you want to take a trip back to the beginnings of automotive history or you’re interested in sport and lifestyle or the multimedia entertainment options from Mercedes-Benz.
-	           </small>
-	           </p>
-
-	           </div><!-- end of col4-->
-
-	           <div class="col-sm-2">
-	          
-	          <h6> Navigation </h6> 
-	           <ul class="unstyled">
-	                <li><a href="#">Home</a></li>
-	                <li><a href="#">Services</a></li>
-	                <li><a href="#">Test Drive</a></li>
-	                <li><a href="#">Contact Us</a></li>
-	               
-
-              </div><!-- end of col2-->
-
-	           <div class="col-sm-2">
-	           <h6> Follow Us </h6>
-	           <ul class="unstyled">
-	                <li><a href="#">Twitter</a></li>
-	                <li><a href="#">Facebook</a></li>
-	                <li><a href="#">Instagram</a></li>
-	                <li><a href="#">Google Plus</a></li>
-
-	           </div><!-- end of col2-->
-
-	           <div class="col-sm-2">
-	           <h6> Mercedes Trophy </h6>
-	           
-	           <a href="#">India's premier golf trophy</a>
-	           
-
-
-	           </div><!-- end of col2-->
-
-	       </div><!-- end of row-->
-
-
-	       </div><!-- end of container-->
-	
-	       </footer><!-- end of footer-->    
-
-
-
-	<!-- All Javascript at the bottom of the page for faster page loading -->
-		
-	<!-- First try for the online version of jQuery-->
-	<script src="http://code.jquery.com/jquery.js"></script>
-	
-	<!-- If no online access, fallback to our hardcoded version of jQuery -->
-	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
-	
-	<!-- Bootstrap JS -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	
-	<!-- Custom JS -->
-	<script src="includes/js/script.js"></script>
-	
-	</body>
+   <head>
+      <!-- Website Title & Description for Search Engine purposes -->
+      <title> Benz</title>
+      <meta name="description" content="">
+      <!-- Mobile viewport optimized -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <!-- Bootstrap CSS -->
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+      <!-- Custom CSS -->
+      <link href="includes/css/styles.css" rel="stylesheet">
+      <!-- Include Modernizr in the head, before any other Javascript -->
+      <script src="includes/js/modernizr-2.6.2.min.js"></script>
+   </head>
+   <body>
+      <div class="container" id="main" ">
+      <!-- main container for the site-->
+      <div class="navbar navbar-fixed-top">
+         <div class="container">
+            <!-- navbar inside container as the contents dont take the full space-->
+            <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+            <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="images/logo1.png" height="30" width="30" alt="Benz"></a><!-- alt tells description-->
+            <div class="nav-collapse collapse navbar-responsive-collapse">
+               <!-- this class used for dropdown menu-->
+               <ul class="nav navbar-nav">
+                  <li>
+                     <a href="#">Benz</a>
+                  </li>
+                  <li class="active">
+                     <!-- Active shows highlighted on the home-->
+                     <a href="#">Home</a>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" ><strong class="caret"></strong>Services</a>
+                     <ul class="dropdown-menu">
+                        <li>
+                           <a href="#">Buy</a>
+                        </li>
+                        <li>
+                           <a href="#">Book</a>
+                        </li>
+                        <li>
+                           <a href="#">Servicing</a>
+                        </li>
+                        <!-- for dividing into two parts-->
+                        <li class="divider"></li>
+                        <!-- for adding the heading after the divider-->
+                        <li class="dropdown-header"> Category </li>
+                        <li>
+                           <a href="#">SUV</a>
+                        </li>
+                        <li>
+                           <a href="#">Sedan</a>
+                        </li>
+                        <li>
+                           <a href="#">Hatchback</a>
+                        </li>
+                     </ul>
+                     <!--end of dropdown menu-->     
+                  </li>
+               </ul>
+               <!-- end of nav-->
+               <form class="navbar-form pull-left">
+                  <!-- pull left is like float which pulls the form to left-->
+                  <input type="text" class="form-control" placeholder="Search this site....." id="searchInput">
+                  <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
+                  </button><!-- glyphicon is class of bootstrap for icons-->
+               </form>
+               <!-- end of form-->
+               <ul class="nav navbar-nav pull-right">
+                  <!-- pull right is like float which pulls to right-->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong class="caret"></strong>
+                     <span class="glyphicon glyphicon-user"></span>My Account </a>
+                     <ul class="dropdown-menu">
+                        <li>
+                           <a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a>
+                        </li>
+                        <li>
+                           <a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
+                        </li>
+                        <li>
+                           <a href="#"><span class="glyphicon glyphicon-briefcase"></span>Billing</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                           <a href="#"><span class="glyphicon glyphicon-off"></span>logout</a>
+                        </li>
+                     </ul>
+                     <!-- end of dropdown -->
+                  </li>
+               </ul>
+               <!-- end of pullright -->  
+            </div>
+            <!-- end of nav-collpase-->
+         </div>
+         <!-- end of container-->
+      </div>
+      <!-- end navbar -->
+      <div class="carousel slide" id="myCarousel">
+         <!-- Indicators -->
+         <ol class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+            <li data-slide-to="1" data-target="#myCarousel"></li>
+            <li data-slide-to="2" data-target="#myCarousel"></li>
+         </ol>
+         <!-- Wrapper for slides -->
+         <div class="carousel-inner">
+            <div class="item active" id="slide1">
+               <div class="carousel-caption">
+                  <h4 class=head4>Welcome to the Mercedes-Benz </h4>
+                  <p class="para1">Exclusive reports and current films: experience a broad range of topics from the fascinating world of Mercedes-Benz. 
+                  </p>
+               </div>
+               <!-- end carousel-caption-->
+            </div>
+            <!-- end item -->
+            <div class="item" id="slide2">
+               <div class="carousel-caption">
+                  <h4>Mercedes</h4>
+                  <p class="para2">The Best or Nothing</p>
+               </div>
+               <!-- end carousel-caption-->
+            </div>
+            <!-- end item -->
+            <div class="item" id="slide3">
+               <div class="carousel-caption" id="caro3">
+                  <h4 >Benz</h4>
+                  <p class="para3">Get your dream into reality</p>
+               </div>
+               <!-- end carousel-caption-->
+            </div>
+            <!-- end item -->
+         </div>
+         <!-- carousel-inner -->
+         <!-- Controls -->
+         <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+         <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+      </div>
+      <!-- end of carosuel-->
+      <div class="row" id="bigCallout">
+         <div class="col-12">
+            <!-- visible only to small device-->
+            <div class="well well-small visible-sm">
+               <a href="#" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>
+               Give us a call</a>
+            </div>
+            <!-- end well-->
+            <div class="well">
+               <div class="page-header">
+                  <h1> Mercedes Benz <small>India</small> </h1>
+               </div>
+               <!-- end of page-header-->
+               <p class="lead" id=well1">Mercedes-Benz is a global automobile manufacturer and a division of the German company Daimler AG. The brand is known for luxury vehicles, buses, coaches, and trucks. The headquarters is in Stuttgart, Baden-Württemberg. The name first appeared in 1926 under Daimler-Benz.
+                  Mercedes-Benz traces its origins to Daimler-Motoren-Gesellschaft's 1901 Mercedes and Karl Benz's 1886 Benz Patent-Motorwagen, which is widely regarded as the first gasoline-powered automobile. The slogan for the brand is "the best or nothing".
+               </p>
+               <a href="#" class="btn btn-link">Click for more</a>
+            </div>
+            <!-- end of well-->
+         </div>
+         <!-- end of col12-->
+      </div>
+      <!-- end of bigcallout-->
+      <div class="row" id="featuresheading">
+         <div class="col-12">
+            <h2> Specifications </h2>
+            <p>The world of Benz comes with some cool specs </p>
+         </div>
+         <!-- end of col12-->
+      </div>
+      <!-- end of featuresheading-->
+      <div class="row" id="features">
+         <div class="col-sm-4 features">
+            <div class="panel">
+               <div class="panel-heading">
+                  <h3 class="panel-title"> Alloy Wheels & Reversing Camera</h3>
+               </div>
+               <!-- end of panel heading-->
+               <img src="images/feat11.jpg" class="feat1"  alt="Alloy">
+               <p>45.7 cm, 5 spoke light alloy wheels (Sport)
+                  45.7 cm, 5 twin-spoke light alloy wheels (Style).Reversing and manoeuvring are not the most pleasant situations for a driver. But what used to be rather tricky operations can now be performed with ease. The reversing camera is switched on automatically when the driver selects reverse gear.
+               </p>
+            </div>
+            <!-- end of panel-->
+         </div>
+         <!-- end of col featuress-->
+         <div class="col-sm-4 features">
+            <div class="panel">
+               <div class="panel-heading">
+                  <h3 class="panel-title"> Diesel Engine</h3>
+               </div>
+               <!-- end of panel heading-->
+               <img src="images/feat21.jpg" class="feat2" alt="Alloy">
+               <p>The GLA 200 d has an output of 100 kW (136 hp) and gives a class leading fuel efficiency of 17.9 km/l. With up to 300 Nm of torque, it offers an effortlessly superior driving experience. Overtaking maneuvers are performed with astounding ease born of refined power.The latest generation of common rail direct injection enables efficient combustion. 
+               </p>
+            </div>
+            <!-- end of panel-->
+         </div>
+         <!-- end of col featuress-->
+         <div class="col-sm-4 features">
+            <div class="panel">
+               <div class="panel-heading">
+                  <h3 class="panel-title"> Ground Clearance</h3>
+               </div>
+               <!-- end of panel heading-->
+               <img src="images/feat31.jpg" class="feat3" alt="Alloy">
+               <p>Equipped with an India specific suspension, the chassis is raised by 30 mm.
+                  This results in improved off-road capabilities thanks to a greater ground
+                  clearance of 183 mm with a higher seat position and also a striking off-road
+                  look. This suspension variant also features its own steering tuning
+                  which enables The GLA to master the most challenging roads. 
+               </p>
+            </div>
+            <!-- end of panel-->
+         </div>
+         <!-- end of col featuress-->
+         <div class="row" id="featuresheading">
+            <div class="col-12">
+               <h2> Service Centers </h2>
+               <p> The service centers in India are as follows</p>
+            </div>
+            <!-- end of col12-->
+            <div class="col-sm-3 features">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">New Delhi</h3>
+                  </div>
+                  <!-- end of panel heading-->
+                  <img src="images/feat41.jpg" class="img-circle" id="feat4" alt="Alloy">
+                  <p>We have our service centers across whole country prime location in north being Delhi.
+                  </p>
+               </div>
+               <!-- end of panel-->
+            </div>
+            <!-- end of col featuress-->
+            <div class="col-sm-3 features">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">Mumbai</h3>
+                  </div>
+                  <!-- end of panel heading-->
+                  <img src="images/feat51.jpg" class="img-circle" id="feat5" alt="Alloy">
+                  <p>We have our service centers across whole country prime location in west being Mumbai.
+                  </p>
+               </div>
+               <!-- end of panel-->
+            </div>
+            <!-- end of col featuress-->
+            <div class="col-sm-3 features">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">Bangalore</h3>
+                  </div>
+                  <!-- end of panel heading-->
+                  <img src="images/feat61.jpg" class="img-circle" id="feat6" alt="Alloy">
+                  <p>We have our service centers across whole country prime location in south being Bangalore.
+                  </p>
+               </div>
+               <!-- end of panel-->
+            </div>
+            <!-- end of col featuress-->
+            <div class="col-sm-3 features">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <h3 class="panel-title"> Chennai</h3>
+                  </div>
+                  <!-- end of panel heading-->
+                  <img src="images/feat71.jpg" class="img-circle" id="feat7" alt="Alloy">
+                  <p>We have our service centers across whole country prime location in south being Chennai.
+                  </p>
+               </div>
+               <!-- end of panel-->
+            </div>
+            <!-- end of col featuress-->
+         </div>
+         <!-- end of features-->
+         <div class="row" id="moreInfo">
+            <div class="col-sm-6">
+               <h3> Future Cars </h3>
+               <div class="tabbable">
+                  <ul class="nav nav-tabs">
+                     <li class="active"><a href="#tab1" data-toggle="tab">Section 1 </a></li>
+                     <li><a href="#tab2" data-toggle="tab">Section2 </a></li>
+                     <li><a href="#tab3" data-toggle="tab">Section3 </a></li>
+                  </ul>
+                  <div class="tab-content">
+                     <div class="tab-pane active" id="tab1">
+                        <h4>Mercedes-Benz Concept A Sedan</h4>
+                        <p>
+                           With the Concept A Sedan, Mercedes-Benz unveils an inspired new take on the compact vehicle. Building on the success of the CLA and GLA lineups, the Concept A Sedan epitomizes the "sensual purity" design philosophy with a stunning, streamlined look.
+                        </p>
+                        <p>
+                           At first glance, the shark-like nose and triangular headlamps give a forward thrust to the Concept A profile. The headlamps themselves feature an all-new grid structure coated in UV paint and exposed to ultraviolet light, giving them a unique glow that changes depending on the outside environment. Drawing even more attention to the impressive front end is the Panamericana grille, the stretched hood with parallel Powerdomes, and the full-width lower air intake, outlined in dark chrome for a decidedly menacing presence.
+                        </p>
+                        <p>
+                           From there, the Concept A extends elegantly toward the rear. The door handles are flush with the body, adding to the continuous shape, the panoramic glass roof gives it a glistening sheen, and the exclusive 20-inch wheels radiate technical precision. The rear itself emphasizes the vehicle´s width - nearly 74 inches - with stylish black and chrome trim.
+                        </p>
+                        <img src="images/tab11.jpg">
+                     </div>
+                     <!-- end of tab pane-->
+                     <div class="tab-pane" id="tab2">
+                        <h4>Mercedes‑AMG GT C</h4>
+                        <p>
+                           This year marks the 50th anniversary of AMG's legendary motorsports heritage. And the most fitting way to celebrate that glorious past is to unveil the future. The 2018 GT C Coupe is the latest evolution of a vehicle family that marries track-worthy power to luxury worthy of Mercedes-AMG.
+                        </p>
+                        <p>
+                           The GT C takes the already impressive capability of its fellow GT coupes and pushes it to a formidable new level: 550 hp and 502 lb-ft of torque*. What's more, the new coupe borrows the GT R's rear-axle steering to provide maximum stability and agility. An electronically controlled rear-axle limited-slip differential further improves traction to dominate every corner.
+                        </p>
+                        <p>
+                           The GT C boasts the same aggressive rear dimensions as the GT R, allowing for larger wheels and a wider track. It also features a Panamericana grille in front, a tribute to classic racing heritage and the new face of all AMG GT models going forward.
+                        </p>
+                        <img src="images/tab21.jpg">
+                     </div>
+                     <!-- end of tab pane-->
+                     <div class="tab-pane" id="tab3">
+                        <h4> Mercedes‑Benz E‑Class Cabriolet</h4>
+                        <p>
+                           The newest addition to the E-Class family is an ode to the pleasures of open-air driving. With unprecedented comfort and luxury, a powerful yet effortless driving experience, and high-caliber technology that only an E-Class can provide, the 2018 E-Class Cabriolet is a genuine rarity.
+                        </p>
+                        <p>
+                           The premium fabric soft-top has a multi-layer structure with sophisticated insulation to reduce wind and noise. It can be fully opened and closed in just 20 seconds at speeds of up to 30 mph, folding quietly and precisely into the trunk. And with available AIRCAP® and AIRSCARF® neck-level heating, comfortable top-down driving becomes an all-seasons affair.
+                        </p>
+                        <p>
+                           Inside the cabin, E-Class technology is spread throughout. This includes standard features like comprehensive Smartphone Integration, a 12.3-inch COMAND® display, Car-to-X Communication and steering wheel Touch Control Buttons, plus innovative safety systems like PRE-SAFE® Sound. For even more, there´s the optional Driver Assistance Package which includes Active Steering Assist, Active Lane Change Assist, and more.
+                        </p>
+                        <img src="images/tab31.jpg">
+                     </div>
+                     <!-- end of tab pane-->         
+                  </div>
+                  <!-- enf of tab content-->
+               </div>
+               <!-- end of tabbable-->   
+            </div>
+            <!-- end of col6-->
+            <div class="col-sm-6">
+               <h3 class="self"> Self Drive Car </h3>
+               <video  id="video1">
+                  <source src="video/1.mp4"  type="video/mp4">
+               </video>
+               <button onclick="playPause()">Play/Pause</button>
+               <div class="feat8">
+                  <img src="images/feat81.jpg ">
+               </div>
+            </div>
+            <!-- end of clo6-->
+         </div>
+         <!--end of moreInfo-->
+         <br>
+      </div>
+   </div>
+ </div>     
+      <!-- end of container-->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-2">
+                  <h6> Copyright &copy; 2001 Benz </h6>
+               </div>
+               <!-- end of col2-->
+               <div class="col-sm-4">
+                  <h6> About Us </h6>
+                  <p><small>
+                     Here you’ll find all the news and events for Mercedes-Benz plus fascinating details on the brand’s innovative power and unmistakable design idiom. Whether you want to take a trip back to the beginnings of automotive history or you’re interested in sport and lifestyle or the multimedia entertainment options from Mercedes-Benz.
+                     </small>
+                  </p>
+               </div>
+               <!-- end of col4-->
+               <div class="col-sm-2">
+                  <h6> Navigation </h6>
+                  <ul class="unstyled">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Test Drive</a></li>
+                  <li><a href="#">Contact Us</a></li>
+               </div>
+               <!-- end of col2-->
+               <div class="col-sm-2">
+                  <h6> Follow Us </h6>
+                  <ul class="unstyled">
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Google Plus</a></li>
+               </div>
+               <!-- end of col2-->
+               <div class="col-sm-2">
+                  <h6> Mercedes Trophy </h6>
+                  <a href="#">India's premier golf trophy</a>
+               </div>
+               <!-- end of col2-->
+            </div>
+            <!-- end of row-->
+         </div>
+         <!-- end of container-->
+      </footer>
+      <!-- end of footer-->    
+      <!-- All Javascript at the bottom of the page for faster page loading -->
+      <!-- First try for the online version of jQuery-->
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <!-- If no online access, fallback to our hardcoded version of jQuery -->
+      <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+      <!-- Bootstrap JS -->
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <!-- Custom JS -->
+      <script src="includes/js/script.js"></script>
+   </body>
 </html>
-
